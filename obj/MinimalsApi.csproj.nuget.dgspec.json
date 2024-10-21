@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programming\\bootcamp\\MinimalsApi\\MinimalsApi.csproj": {}
+    "D:\\programming\\bootcamp\\minimalsapi\\MinimalsApi.csproj": {}
   },
   "projects": {
-    "D:\\programming\\bootcamp\\MinimalsApi\\MinimalsApi.csproj": {
+    "D:\\programming\\bootcamp\\minimalsapi\\MinimalsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programming\\bootcamp\\MinimalsApi\\MinimalsApi.csproj",
+        "projectUniqueName": "D:\\programming\\bootcamp\\minimalsapi\\MinimalsApi.csproj",
         "projectName": "MinimalsApi",
-        "projectPath": "D:\\programming\\bootcamp\\MinimalsApi\\MinimalsApi.csproj",
+        "projectPath": "D:\\programming\\bootcamp\\minimalsapi\\MinimalsApi.csproj",
         "packagesPath": "C:\\Users\\migan\\.nuget\\packages\\",
-        "outputPath": "D:\\programming\\bootcamp\\MinimalsApi\\obj\\",
+        "outputPath": "D:\\programming\\bootcamp\\minimalsapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\migan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.10, )"

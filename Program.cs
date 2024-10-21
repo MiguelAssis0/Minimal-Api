@@ -1,6 +1,13 @@
 using MinimalsApi.Models;
+using Microsoft.EntityFrameworkCore;
+using MinimalsApi.Infra.Database;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<MinimalsContext>(options => 
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddControllers();
+
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");

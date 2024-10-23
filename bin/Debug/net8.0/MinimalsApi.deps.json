@@ -9,7 +9,8 @@
       "MinimalsApi/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.10",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.10"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.10",
+          "Swashbuckle.AspNetCore.Swagger": "6.9.0"
         },
         "runtime": {
           "MinimalsApi.dll": {}
@@ -391,6 +392,14 @@
         }
       },
       "Microsoft.Extensions.Primitives/8.0.0": {},
+      "Microsoft.OpenApi/1.6.14": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.6.14.0",
+            "fileVersion": "1.6.14.0"
+          }
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "dependencies": {
           "System.CodeDom": "4.4.0"
@@ -424,6 +433,17 @@
           "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
             "assemblyVersion": "8.0.10.0",
             "fileVersion": "8.0.10.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.9.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.14"
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "6.9.0.0",
+            "fileVersion": "6.9.0.799"
           }
         }
       },
@@ -675,6 +695,13 @@
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
+    "Microsoft.OpenApi/1.6.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tTaBT8qjk3xINfESyOPE2rIellPvB7qpVqiWiyA/lACVvz+xOGiXhFUfohcx82NLbi5avzLW0lx+s6oAqQijfw==",
+      "path": "microsoft.openapi/1.6.14",
+      "hashPath": "microsoft.openapi.1.6.14.nupkg.sha512"
+    },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",
       "serviceable": true,
@@ -695,6 +722,13 @@
       "sha512": "sha512-gFPl9Dmxih7Yi4tZ3bITzZFzbxFMBx04gqTqcjoL2r5VEW+O2TA5UVw/wm/XW26NAJ7sg59Je0+9QrwiZt6MPQ==",
       "path": "npgsql.entityframeworkcore.postgresql/8.0.10",
       "hashPath": "npgsql.entityframeworkcore.postgresql.8.0.10.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P316kpxx5DnDvJwNWW8iTAXkh9DVenAxFGe9v4OUS0gil+vitH7F1feXhCtVeHN/616EFNTMh4pV2lcr9kkw/w==",
+      "path": "swashbuckle.aspnetcore.swagger/6.9.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.6.9.0.nupkg.sha512"
     },
     "System.CodeDom/4.4.0": {
       "type": "package",

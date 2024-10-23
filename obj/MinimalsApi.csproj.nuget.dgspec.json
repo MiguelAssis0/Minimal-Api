@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programming\\bootcamp\\minimalsapi\\MinimalsApi.csproj": {}
+    "D:\\programming\\bootcamp\\MinimalsApi\\MinimalsApi.csproj": {}
   },
   "projects": {
-    "D:\\programming\\bootcamp\\minimalsapi\\MinimalsApi.csproj": {
+    "D:\\programming\\bootcamp\\MinimalsApi\\MinimalsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programming\\bootcamp\\minimalsapi\\MinimalsApi.csproj",
+        "projectUniqueName": "D:\\programming\\bootcamp\\MinimalsApi\\MinimalsApi.csproj",
         "projectName": "MinimalsApi",
-        "projectPath": "D:\\programming\\bootcamp\\minimalsapi\\MinimalsApi.csproj",
+        "projectPath": "D:\\programming\\bootcamp\\MinimalsApi\\MinimalsApi.csproj",
         "packagesPath": "C:\\Users\\migan\\.nuget\\packages\\",
-        "outputPath": "D:\\programming\\bootcamp\\minimalsapi\\obj\\",
+        "outputPath": "D:\\programming\\bootcamp\\MinimalsApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\migan\\AppData\\Roaming\\NuGet\\NuGet.Config"

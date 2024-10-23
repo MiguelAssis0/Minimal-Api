@@ -24,4 +24,6 @@ app.MapPost("/login", ([FromBody]loginDTO loginDTO, IAdminService adminService)=
         return Results.Unauthorized();
 });
 
+
+
 app.Run();

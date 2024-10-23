@@ -61,5 +61,10 @@ namespace MinimalsApi.Domain.Services
             _context.Vehicles.Update(vehicle);
             _context.SaveChanges();
         }
+
+        internal object GetAll()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

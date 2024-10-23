@@ -109,3 +109,11 @@ D:\programming\bootcamp\MinimalsApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swag
 D:\programming\bootcamp\MinimalsApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\programming\bootcamp\MinimalsApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\programming\bootcamp\MinimalsApi\obj\Debug\net8.0\MinimalsApi.MvcApplicationPartsAssemblyInfo.cs
+D:\programming\bootcamp\MinimalsApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\programming\bootcamp\MinimalsApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\programming\bootcamp\MinimalsApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\programming\bootcamp\MinimalsApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\programming\bootcamp\MinimalsApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\programming\bootcamp\MinimalsApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\programming\bootcamp\MinimalsApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\programming\bootcamp\MinimalsApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

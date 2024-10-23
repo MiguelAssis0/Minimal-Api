@@ -27,6 +27,11 @@ namespace MinimalsApi.Domain.Services
             return query.ToList();
         }
 
+        public List<Admin> GetAll()
+        {
+            return _context.Admins.ToList();
+        }
+
         public Admin Include(Admin admin)
         {
             _context.Admins.Add(new Admin

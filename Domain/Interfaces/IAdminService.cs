@@ -13,6 +13,6 @@ namespace MinimalsApi.Infra.Interfaces
         Admin Include(Admin admin);
         Admin? Login(loginDTO loginDTO);
         List<Admin> GetAll(int? page);
-        
+        List<Admin> GetAll();
     }
 }
